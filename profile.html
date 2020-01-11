@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/5ac1dba0a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <style>
+        .navbar {
+            background: radial-gradient(blue, darkblue, black);
+        }
+
+        #nav-btn {
+            background: linear-gradient(to right, grey, lightgrey, white)
+        }
+
+        #nav {
+            color: white;
+            font-size: 20px;
+        }
+
+        #nav:hover {
+            color: yellow;
+            text-shadow: 0px 2px 2px red;
+            font-size: 22px;
+        }
+
+        /* akhir nav  */
+
+        .badge {
+            background: repeating-radial-gradient(darkblue, blue, rgb(53, 0, 0),red);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px 0px darkblue;
+        }
+
+        section {
+            background: radial-gradient(white, lightgrey, grey);
+        }
+
+
+        .judul {
+            background-image: url(https://www.kucari.id/storage/files/id/803/thumb-816x460-c24463cd61578872aad126f18d9768e4.jpg);
+            background-size: cover;
+            height: 20vh;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .judul h1 {
+            font-size: 300%;
+            color: red;
+            text-shadow: 0px 2px 2px yellow;
+            /* position: absolute; */
+            padding-top: 3%;
+        }
+
+        .visi {
+            margin-top: 20vh;
+            margin-bottom: 20vh;
+        }
+
+        .misi {
+            padding-bottom: 15vh;
+        }
+
+        .visi img {
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 92);
+        }
+
+        .misi img {
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 92);
+        }
+
+        .visi h2,
+        .misi h2 {
+            text-shadow: 1px 1px 1px red;
+            color: rgb(0, 0, 92);
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                position: relative;
+            }
+
+            .navbar-brand img {
+                position: absolute;
+                width: 100%;
+                margin-left: 300px
+            }
+
+            .misi {
+                position: relative;
+                height: 150vh;
+            }
+
+            .misi .isi {
+                position: absolute;
+                padding-top: 200px;
+            }
+
+            .misi .img {
+                position: absolute;
+
+            }
+        }
+
+        /* footer  */
+
+        footer .row {
+            margin-right: 0px;
+            margin-top: 0;
+        }
+
+        .isi-footer {
+            background-color: rgb(0, 0, 92);
+            width: 100%;
+        }
+
+        .isi-footer a {
+            color: white;
+        }
+
+        .cr {
+            font-size: 12px;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="http://www.captainfix.co.id/theme/new/img/logoHeader.png" alt="Image Error"
+                            width="100%">
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" id="nav" href="#"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" id="nav" href="#"><i class="fas fa-shoe-prints"></i> Product</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" id="nav" href="profile.html"><i class="fas fa-user-tie"></i> Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <cimiko>
+        <section>
+            <div class="container">
+                <div class="badgee pt-5">
+                    <span class="badge py-3 px-4">Profile Perusahaan</span>
+                </div>
+                <div class="img mt-5 mb-3" data-aos="zoom-in" data-aos-duration="2000">
+                    <img style="border-radius: 20px; box-shadow: 0px 4px 6px 0px darkblue;" src="http://www.captainfix.co.id/data/files/CF-Histori.jpg"
+                        alt="Image Error" width="100%">
+                </div>
+                <p><span style="font-weight: 700;">Captain Fix</span> adalah suatu perusahaan jasa reparasi yang dapat
+                    memperbaiki berbagai macam kerusakan pada tas, sepatu, koper, dan barang lainnya. Didirikan oleh Ibu
+                    Rinawaty pada tahun 2008 di Jakarta, Indonesia. Bertujuan untuk menciptakan gaya hidup yang tidak
+                    konsumtif dengan mengajak masyarakat untuk tidak langsung membuang barang mereka yang rusak, tetapi
+                    dengan cara memperbaikinya terlebih dahulu.</p>
+            </div>
+
+            <div class="col-12 judul text-center my-5">
+                <h1 data-aos="fade-down" data-aos-duration="2000">CAPTAIN FIX</h1>
+            </div>
+
+            <div class="container visi-misi text-center my-5">
+                <div class="row visi">
+                    <div class="col-12 col-md-6" data-aos="fade-up-right" data-aos-duration="2000">
+                        <img src="https://fastly.4sqi.net/img/general/600x600/3633894_29UWxbR_Vh81MsrxRlKgRTe7Y04FqTsR_lXXQwoYvKw.jpg"
+                            alt="Image Error" width="100%">
+                    </div>
+
+                    <div class="col-12 col-md-6 mt-5 align-self-center" data-aos="fade-up-left"
+                        data-aos-duration="2500">
+                        <h2>VISI</h2>
+                        <p>Menjadi perusahaan di bidang jasa perbaikan tas, koper dan sepatu yang terdepan di Indonesia
+
+                            Menciptakan gaya hidup yang cerdas dan tidak konsumtif</p>
+                    </div>
+                </div>
+
+                <div class="row misi">
+                    <div class="col-12 col-md-6 mt-5 isi align-self-center" data-aos="zoom-out-right"
+                        data-aos-duration="2000">
+                        <h2>MISI</h2>
+                        <p>Memberikan jaminan di setiap pelayanannya kepada konsumen.
+
+                            Bekerja sama dengan korporasi besar di Indonesia
+
+                            Melayani konsumen melalui media online
+
+                            Memberikan edukasi rutin kepada konsumen tentang perawatan barang-barang konsumen</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 img" data-aos="zoom-out-right" data-aos-duration="2000">
+                        <img src="http://www.captainfix.co.id/data/photo/branch/CF-CIBUBUR.jpg" alt="Image Error"
+                            width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </cimiko>
+
+    <footer>
+        <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+            src="http://www.captainfix.co.id/data/photo/1170.jpg" alt="Image Error" width="100%">
+        <div class="row jusify-content-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000">
+            <div class="col-12 text-center isi-footer py-2">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a class="mx-5" href="">Syarat dan Ketentuan</a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a class="mx-5" href="">Peta Situs</a class="mx-3">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a class="mx-5" href="">Hubungi Kami</a class="mx-3">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 text-right cr">
+            <p>© Copyright 2020, Captain Fix. Website Design by <span style="color: red;">Arfadia</span></p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
