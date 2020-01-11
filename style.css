@@ -28,13 +28,22 @@
     margin-left: 650px;
 }
 
-.menu-utama li{
-    float: left;
-    margin: 8px 10px;
-    text-align: ;
+footer .row {
+    margin-right: 0px;
+    margin-top: 0;
 }
 
-.footer {
-    background: radial-gradient(blue,darkblue,black);;
+.isi-footer {
+    background-color: rgb(0, 0, 92);
+    width: 100%;
+}
+
+.isi-footer a {
+    color: white;
+}
+
+.cr {
+    font-size: 12px;
+    color: grey;
 }
 
