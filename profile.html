@@ -22,23 +22,93 @@
 
 
     <style>
-        .navbar{
-            background: radial-gradient(blue,darkblue,black);
+        .navbar {
+            background: radial-gradient(blue, darkblue, black);
         }
 
-        #nav-btn{
+        #nav-btn {
             background: linear-gradient(to right, grey, lightgrey, white)
         }
 
-        #nav{
+        #nav {
             color: white;
             font-size: 20px;
         }
 
-        #nav:hover{
+        #nav:hover {
             color: yellow;
             text-shadow: 0px 2px 2px red;
             font-size: 22px;
+        }
+
+        /* akhir nav  */
+
+        .badge {
+            background: repeating-radial-gradient( darkblue,blue,red);
+            color: white;
+        }
+
+        section {
+            background: radial-gradient(white, lightgrey, grey);
+        }
+
+        .judul {
+            background-image: url(https://www.kucari.id/storage/files/id/803/thumb-816x460-c24463cd61578872aad126f18d9768e4.jpg);
+            background-size: cover;
+            height: 20vh;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .judul h1 {
+            font-size: 300%;
+            color: red;
+            text-shadow: 0px 2px 2px yellow;
+            /* position: absolute; */
+            padding-top: 3%;
+        }
+
+        .visi{
+            margin-top: 20vh;
+            margin-bottom: 20vh;
+        }
+        .misi{
+            padding-bottom: 15vh;
+        }
+
+        .visi img{
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 92);
+        }
+
+        .misi img{
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 92);
+        }
+
+        .visi h2, .misi h2{
+            text-shadow: 1px 1px 1px red;
+            color: rgb(0, 0, 92);
+        }
+        
+        /* footer  */
+
+        footer .row{
+            margin-right: 0px;
+        }
+
+        .isi-footer{
+            background-color: rgb(0, 0, 92);
+            width: 100%;
+        }
+
+        .isi-footer a{
+            color: white;
+        }
+
+        .cr{
+            font-size: 12px;
+            color: grey;
         }
     </style>
 </head>
@@ -54,8 +124,9 @@
                     </a>
                 </div>
                 <div class="col-12 text-center">
-                    <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
@@ -80,8 +151,78 @@
 
 
     <cimiko>
+        <section>
+            <div class="container">
+                <div class="badgee pt-5">
+                    <span class="badge py-3 px-4">Profile Perusahaan</span>
+                </div>
+                <div class="img mt-5 mb-3">
+                    <img src="http://www.captainfix.co.id/data/files/CF-Histori.jpg" alt="Image Error" width="100%">
+                </div>
+                <p><span style="font-weight: 700;">Captain Fix</span> adalah suatu perusahaan jasa reparasi yang dapat memperbaiki berbagai macam kerusakan pada tas, sepatu, koper, dan barang lainnya. Didirikan oleh Ibu Rinawaty pada tahun 2008 di Jakarta, Indonesia. Bertujuan untuk menciptakan gaya hidup yang tidak konsumtif dengan mengajak masyarakat untuk tidak langsung membuang barang mereka yang rusak, tetapi dengan cara memperbaikinya terlebih dahulu.</p>
+            </div>
 
+            <div class="col-12 judul text-center my-5">
+                <h1>CAPTAIN FIX</h1>
+            </div>
+
+            <div class="container text-center my-5">
+                <div class="row visi">
+                    <div class="col-12 col-md-6">
+                        <img src="https://fastly.4sqi.net/img/general/600x600/3633894_29UWxbR_Vh81MsrxRlKgRTe7Y04FqTsR_lXXQwoYvKw.jpg" alt="Image Error" width="100%">
+                    </div>
+
+                    <div class="col-12 col-md-6 align-self-center">
+                        <h2>VISI</h2>
+                        <p>Menjadi perusahaan di bidang jasa perbaikan tas, koper dan sepatu yang terdepan di Indonesia
+    
+                            Menciptakan gaya hidup yang cerdas dan tidak konsumtif</p>
+                    </div>
+                </div>
+
+                <div class="row misi">
+                    <div class="col-12 col-md-6 align-self-center">
+                        <h2>MISI</h2>
+                        <p>Memberikan jaminan di setiap pelayanannya kepada konsumen.
+    
+                            Bekerja sama dengan korporasi besar di Indonesia
+                            
+                            Melayani konsumen melalui media online
+                            
+                            Memberikan edukasi rutin kepada konsumen tentang perawatan barang-barang konsumen</p>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <img src="http://www.captainfix.co.id/data/photo/branch/CF-CIBUBUR.jpg" alt="Image Error" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <img src="http://www.captainfix.co.id/data/photo/1170.jpg" alt="Image Error" width="100%">
+        </section>
     </cimiko>
+
+    <footer>
+            <div class="row jusify-content-center">
+                <div class="col-12 text-center isi-footer py-2">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <a class="mx-5" href="">Syarat dan Ketentuan</a>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a class="mx-5" href="">Peta Situs</a class="mx-3">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a class="mx-5" href="">Hubungi Kami</a class="mx-3">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 text-right cr">
+                <p>© Copyright 2020, Captain Fix. Website Design by <span style="color: red;">Arfadia</span></p>
+            </div>
+    </footer>
 </body>
 
 </html>
