@@ -1,0 +1,40 @@
+.jumbotron{
+    background-image: url(img/gambar1.jpg);
+    background-size: cover;
+    height: 600px;
+    opacity: 80%;
+}
+
+.container{
+    margin-top: 150px;
+    
+}
+
+
+.d-block {
+    height: 600px;
+    border-radius: 20px;
+
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+    border-radius:20px ;
+}
+
+.menu-utama{
+    list-style: none;
+    margin-left: 650px;
+}
+
+.menu-utama li{
+    float: left;
+    margin: 8px 10px;
+    text-align: ;
+}
+
+.footer {
+    background: radial-gradient(blue,darkblue,black);;
+}
+
